@@ -4,9 +4,52 @@
     <title>AverageAlien's github page</title>
 </head>
 <body>
-    <p>Hello world!</p>
-    <a href="BlockGame.html">Play the blocks game (WebGL)</a>
-    <a>One day I will make this page look nicer...</p>
+    <div class="root container">
+        <div class="header">Welcome!</div>
+        <a class="btn" href="BlockSandbox/BlockGame.html">Blocks sandbox</a>
+        <a class="btn" href="MageGame/MageGame.html">Mage game</a>
+    </div>
 </body>
+
+<style>
+    body {
+        background-color: rgb(36, 19, 0);
+        color: gold;
+        padding: 0;
+        font-family: sans-serif;
+    }
+
+    .root {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        border: 2px solid gold;
+        color: gold;
+        font-size: 24px;
+        text-align: center;
+        padding: 8px;
+        background-color: rgb(70, 28, 0);
+        text-decoration: none;
+        margin-bottom: 16px;
+    }
+
+    .btn:hover {
+        background-color: rgb(75, 44, 24);
+    }
+
+    .header {
+        font-size: 48px;
+        margin-bottom: 32px;
+    }
+</style>
 
 </html>
