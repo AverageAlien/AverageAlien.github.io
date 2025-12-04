@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-Infinizard-1.0";
 const contentToCache = [
-    "Build/Web.loader.js",
-    "Build/Web.framework.js",
-    "Build/Web.data",
-    "Build/Web.wasm",
+    "Build/MageGame.loader.js",
+    "Build/MageGame.framework.js",
+    "Build/MageGame.data",
+    "Build/MageGame.wasm",
     "TemplateData/style.css"
 
 ];

@@ -57,12 +57,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Web.loader.js";
+      var loaderUrl = buildUrl + "/MageGame.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Web.data",
-        frameworkUrl: buildUrl + "/Web.framework.js",
-        codeUrl: buildUrl + "/Web.wasm",
+        dataUrl: buildUrl + "/MageGame.data",
+        frameworkUrl: buildUrl + "/MageGame.framework.js",
+        codeUrl: buildUrl + "/MageGame.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Infinizard",
@@ -84,6 +84,7 @@
         meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
         document.getElementsByTagName('head')[0].appendChild(meta);
       }
+
 
       loadingBar.style.display = "block";
 
